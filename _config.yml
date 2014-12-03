@@ -11,11 +11,10 @@ menu:
 
 #### Widgets
 widgets: 
-- category
-- tag
-- links
-- rss
-- tagcloud
+- 分类
+- 标签
+- 友情链接
+- 标签云
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
