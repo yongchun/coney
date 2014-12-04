@@ -1,7 +1,12 @@
 ##### Menu
 menu:
   首页: /
+##  技术: /technology
+##  读书: /reading
+##  杂文: /paper
+##  音乐: /music
   归档: /archives
+##  关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -13,7 +18,7 @@ menu:
 widgets: 
 - 分类
 - 标签
-- 友情链接
+##- 友情链接
 - 标签云
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
@@ -56,10 +61,10 @@ fancybox: false
 
 #### Author information
 author:
-  google_plus:    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
-  weibo:      ## e.g. 436062867 for http://weibo.com/436062867
-  twitter:    ## e.g. gengbiaosky for https://twitter.com/yangjiansky
-  github:     ## e.g. coneycode for https://github.com/coneycode
+  google_plus:  https://plus.google.com/u/0/112146081569991515261 
+  weibo:   http://weibo.com/u/5068646194  
+  twitter:   https://twitter.com/xiangNong312
+  github: https://github.com/yongchun
   facebook:   ## e.g. gengbiao for https://favebook.com/yangjian
   tsina:      ## e.g. 1664838973  Your weibo ID,It will be used in share button.
   zhihu:     # coneylife, now it is no icon, I have push an issue to Font Awesome.
@@ -71,14 +76,14 @@ duoshuo:
 
 #### Share button
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1501277 your jiathis ID. 
-  tsina: ## e.g. 1664838973 Your weibo id,It will be used in share button.
+  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  id:    1990039 
+  tsina: 5068646194
 
 ####Baidu Analytics
 baidu_analytics:
   enable: true
-  id: 391982416296a0d54221f59fe35250d4 # your baidu analytics id
+  id: 284c0951914df5d8560d967cee9790b7
 
 ####Baidu Share
 baidu_share:
@@ -89,7 +94,7 @@ theme_color:
     background: "#dddddd"
     font: "#817c7c"
     theme: '#ea6753'
-    footer: "#ddd"
+    footer: "#ffffff"
  ####Baidu search 
 baidu_search:
   enable: true
