@@ -83,7 +83,7 @@ jiathis:
 ####Baidu Analytics
 baidu_analytics:
   enable: true
-  id: 284c0951914df5d8560d967cee9790b7
+  id: 105bd0eb49894cb33365184b7c06cd50 
 
 ####Baidu Share
 baidu_share:
